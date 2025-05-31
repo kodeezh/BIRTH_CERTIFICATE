@@ -31,12 +31,12 @@ table {
   margin: 30px auto;
   width: 80%;
   border-collapse: collapse;
-  border: none;
+  border: 1px solid transparent;
 }
 
 td {
   padding: 6px 8px;
   vertical-align: top;
   font-size: 16px;
-  border: none !important;
+  border: 1px solid transparent;
 }
