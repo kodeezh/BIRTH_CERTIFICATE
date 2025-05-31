@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Birth Certificate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo-container">
+    <img src="left_logo.jpg" class="logo-left">
+    <img src="gcclogo.png" class="logo-center">
+    <img src="right_logo.jpg" class="logo-right">
+  </div>
+
+  <h1 class="center">GREATER CHENNAI CORPORATION</h1>
+  <h2 class="center">DEPARTMENT OF PUBLIC HEALTH</h2>
+  <h3 class="center underline">BIRTH CERTIFICATE</h3>
+
+  <table>
+    <tr><td>CNo</td><td id="cno"></td></tr>
+    <tr><td>Zone</td><td id="zone"></td></tr>
+    <tr><td>Division</td><td id="division"></td></tr>
+    <tr><td>Name</td><td id="name"></td></tr>
+    <tr><td>Sex</td><td id="sex"></td></tr>
+    <tr><td>DOB</td><td id="dob"></td></tr>
+    <tr><td>Place of Birth</td><td id="place"></td></tr>
+    <tr><td>Fathername</td><td id="father"></td></tr>
+    <tr><td>Mothername</td><td id="mother"></td></tr>
+    <tr><td>Permanent Address</td><td id="address"></td></tr>
+    <tr><td>Registration No.</td><td id="reg"></td></tr>
+    <tr><td>Date of Reg.</td><td id="regdate"></td></tr>
+  </table>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    for (const [key, value] of params.entries()) {
+      const el = document.getElementById(key);
+      if (el) el.innerText = value;
+    }
+  </script>
+</body>
+</html>

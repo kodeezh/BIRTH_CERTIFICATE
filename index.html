@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generate Birth Certificate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Birth Certificate Input Form</h2>
+  <form id="certForm">
+    Name: <input type="text" name="name"><br>
+    DOB: <input type="date" name="dob"><br>
+    Sex: <select name="sex"><option>Male</option><option>Female</option></select><br>
+    Father: <input type="text" name="father"><br>
+    Mother: <input type="text" name="mother"><br>
+    Place of Birth: <input type="text" name="place"><br>
+    Address: <input type="text" name="address"><br>
+    Registration No: <input type="text" name="reg"><br>
+    Date of Registration: <input type="date" name="regdate"><br>
+    CNo: <input type="text" name="cno"><br>
+    Zone: <input type="text" name="zone"><br>
+    Division: <input type="text" name="division"><br>
+    <button type="submit">Generate Certificate</button>
+  </form>
+  <div id="qrcode"></div>
+  <script src="qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
