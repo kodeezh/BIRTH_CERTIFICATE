@@ -8,8 +8,8 @@ body {
   text-align: center;
 }
 
-.heading {
-  text-decoration: underline;
+.no-underline {
+  text-decoration: none;
 }
 
 .logo-container {
