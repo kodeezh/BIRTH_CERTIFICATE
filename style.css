@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 20px;
   color: #000;
 }
@@ -31,11 +31,12 @@ table {
   margin: 30px auto;
   width: 80%;
   border-collapse: collapse;
+  border: none;
 }
 
 td {
   padding: 6px 8px;
   vertical-align: top;
   font-size: 16px;
-  border: none;
+  border: none !important;
 }
