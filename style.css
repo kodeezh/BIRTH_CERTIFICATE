@@ -1,38 +1,22 @@
 body {
-  font-family: Arial;
+  font-family: Georgia, serif;
   margin: 20px;
+  color: #000;
 }
 
 .center {
   text-align: center;
 }
 
-.underline {
+.heading {
   text-decoration: underline;
-}
-
-form input, form select {
-  margin: 5px;
-  padding: 5px;
-}
-
-table {
-  border-collapse: collapse;
-  margin-top: 20px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-td {
-  border: 1px solid black;
-  padding: 8px;
 }
 
 .logo-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .logo-left, .logo-right {
@@ -41,4 +25,17 @@ td {
 
 .logo-center {
   height: 100px;
+}
+
+table {
+  margin: 30px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 6px 8px;
+  vertical-align: top;
+  font-size: 16px;
+  border: none;
 }
